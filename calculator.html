@@ -12,7 +12,12 @@ function seno() {
  num.value = Math.sin(num.value);
 }
 </script>
-
+<script type="text/javascript">
+function alacuarta() {
+ var num = document.getElementById("n2");
+ num.value = Math.pow(num.value, 4);
+}
+</script>
 </head>
 <body>
  <h1>Calculadora de Victor de Pablo Gozalo </h1>
@@ -21,7 +26,8 @@ function seno() {
   <button onclick="cube()"> x^3 </button>
  <input type="text" id="n3">
   <button onclick="seno()"> sin(x) </button>
-
+ <input type="text" id="n2">
+  <button onclick="alacuarta()"> x^4 </button> 
 </body>
 </html>
 
